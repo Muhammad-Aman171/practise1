@@ -1,0 +1,254 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+.faqs h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Space Mono", monospace;
+    color: #495567;
+}
+
+.heading-1 {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading-1 h2 {
+    font-size: 2.5rem;
+    color: #495567;
+    font-family: "Space Mono", monospace;
+}
+
+.questions-1 {
+    border: 1px solid;
+}
+
+.ques-1 {
+    border: 1px solid;
+    width: 40vw;
+    background-color: #F2F5F9;
+    display: flex;
+    margin: 10px 0px;
+    padding: 20px;
+    color: #495567;
+    flex-direction: column;
+}
+
+.ques-1 label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-family: "Space Mono", monospace;
+    cursor: pointer;
+}
+
+.ques-1 label span {
+    color: #FCB72B;
+    font-size: 2rem;
+    transform: rotate(90deg);
+    transition: transform 1s ease-in-out;
+}
+
+.content-1 {
+    font-size: 12px;
+    font-family: "Lexend Deca", sans-serif;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 1s ease-in-out;
+}
+
+.ques-1 input[type="checkbox"] {
+    display: none;
+}
+
+.ques-1 input[type="checkbox"]:checked + .content-1 {
+    max-height: 400px;
+}
+
+/* .ques-1 input[type="checkbox"]:checked + .content-1 + label span {
+    transform: rotate(-270deg);
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F2F2;
+
+}
+
+.faqs h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: "space Mono", space Mono;
+    color: #495567;
+}
+
+.heading-1 {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading-1 h2 {
+    font-size: 2.5rem;
+    color: #495567;
+    font-family: "space Mono", space Mono;
+}
+
+
+
+
+.questions-1 {
+    border: 1px solid;
+
+}
+
+.ques-1 {
+    border: 1px solid;
+    width: 40vw;
+    background-color: #F2F5F9;
+    display: flex;
+    margin: 10px 0px;
+    padding: 20px;
+    color: #495567;
+    flex-direction: column;
+}
+
+.ques-1 label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-family: "space Mono ", space Mono;
+}
+
+.ques-1 label span {
+    color: #FCB72B;
+    font-size: 2rem;
+    transform: rotate(-90deg);
+    width: 10px;
+    /* animation: arrow 1s ; 
+}
+
+.content-1 {
+    font-size: 12px;
+    font-family: "Lexend Deca", sans-serif;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 1s ease-in-out;
+}
+
+.ques-1 label+input[type="checkbox"] {
+    display: none;
+
+}
+
+/* input[type="checkbox"]:checked+.ques-1 + span {
+    animation: arrow 2s 3;
+    } 
+    
+    .ques-1 input[type="checkbox"]:checked+.content-1+label span {
+        transform: rotate(-270deg);
+    }
+    
+    .ques-1 label+input[type="checkbox"]:checked+.content-1 {
+        max-height: 400px;
+} */
+
+
+/* @keyframes arrow {
+    from {
+        transform: rotate(-90deg);
+    }
+
+    to {
+        transform: rotate(-270deg);
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .ques-2{
+    border: 1px solid;
+    width: 40vw;
+    background-color: #F2F5F9;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    color: #495567;
+}
+
+.ques-2 label{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+.ques-3{
+    border: 1px solid;
+    width: 40vw;
+    background-color: #F2F5F9;
+    display: flex;
+    margin:10px 0px;
+    flex-direction: column;
+    color: #495567;
+}
+
+.ques-3 label{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+} */

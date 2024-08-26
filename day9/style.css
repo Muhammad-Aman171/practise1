@@ -1,0 +1,47 @@
+/* Light Mode Styles */
+body {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .container {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #000;
+  }
+  
+  /* Dark Mode Styles */
+  body.dark-mode {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .container.dark-mode {
+    background-color: #333;
+  }
+  
+  h1.dark-mode {
+    color: #fff;
+  }
+  
+  /* Toggle Button Styles */
+  #toggleButton {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  #toggleButton.light-mode {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  #toggleButton.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  

@@ -1,0 +1,73 @@
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+
+body {
+        background-color: #2B2B2B;
+        color: white;
+        font-family: "Work Sans", sans-serif;
+}
+
+.navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 10vh;
+
+}
+.img{
+        width: 2vw;
+}
+
+.navbarHeading {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 18vw;
+}
+
+.navbarHeading h1 {
+        font-weight: 600;
+        font-size: 1.5vw;
+        cursor: pointer;
+        font-family: "Space Mono", monospace;
+}
+
+.navbarPagesHeading {
+        width: 40vw;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+}
+
+.navbarPagesHeading li {
+        list-style: none;
+        font-weight: 500;
+        cursor: pointer;
+        font-size: 1vw;
+}
+
+.sign-upbtn {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-family: "Work Sans", sans-serif;
+        background-color: #A259FF;
+        border-radius: 1.2vw;
+        width: 9vw;
+        height: 7vh;
+}
+
+.sign-upbtn button {
+        border: none;
+        color: white;
+        background-color: #A259FF;
+        font-weight: 500;
+        font-family: "Work Sans", sans-serif;
+        font-size: 1vw;
+}

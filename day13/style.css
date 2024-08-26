@@ -1,0 +1,16 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.header {
+        outline: 2px solid black;
+        height: 746px;
+        width: auto;
+        background-image: url(./assets/MG.png),url(./assets/HG.png);
+        background-position: bottom,top ;
+        background-size:  100% 75% ,100% 55%;
+        background-repeat: no-repeat, no-repeat ;
+
+}

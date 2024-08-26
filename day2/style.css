@@ -1,0 +1,14 @@
+#box1{
+    background-color: rgb(113, 113, 236);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0%;
+
+}
+#box2{
+    background-color: rgb(19, 62, 255);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}

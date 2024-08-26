@@ -1,0 +1,19 @@
+*{
+        padding: 0;
+        margin: 0;
+}
+body{
+
+        background-color: yellowgreen;
+
+}
+.box{
+        border:1px solid;
+        height: 2vmin;
+        width: 100vmax;
+        background-color: aqua;
+
+}
+.box p{
+        font-size: 5vmin;
+}
